@@ -28,7 +28,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-size: auto;  
     background-position: top center;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
 }
 
 ul,li {
@@ -127,6 +127,7 @@ ul {
 main {
     max-width: 1440px;
     width: 100%;
+    margin: 0 140px 0 140px;
 }
 
 .start-banner{
@@ -757,5 +758,10 @@ width: 49%;
         align-self: flex-end;
         width: 100%;
         max-width: 100%;
+    }
+
+    .star-left,
+    .star-right {
+        display: none;  /* скрыть на мобилке */
     }
 }
