@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        .header-container.hidden {
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        .header-container {
+            background-color: #F9F9F8;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header-container">
+        <div class="header-content">
+            <div>
+                <a href="index.html#start-section">
+                    <p class="head-foot-p">any frouze</p>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="case-page.html">
+                            <p class="head-foot-p">проекты</p>
+                        </a></li>
+                    <li><a href="index.html#about-section">
+                            <p class="head-foot-p">обо мне</p>
+                        </a></li>
+                    <li><a href="index.html#contacts-section">
+                            <p class="head-foot-p">контакты</p>
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="projects-container">
+
+            <div class="large-line-container">
+                <h2>Проекты</h2>
+                <div class="star-line">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 24C16 24 24 16 24 0C24 16 32 24 48 24C32 24 24 32 24 48C24 32 16 24 0 24Z"
+                            fill="#1D266D" />
+                    </svg>
+                    <div class="line-medium"></div>
+                </div>
+                <div class="container-under-line">
+
+                    <div class="create-grid-case">
+                        <div class="grid-row">
+                            <a href="case-1.html" class="col-2">
+                                <div class="project-card">
+                                    <img src="src/img/cat-pin black.png" alt="Проект">
+                                    <div class="project-overlay"></div>
+                                    <p>Разработка логотипа для мероприятия<br> «День эрмитажного кота» 2023</p>
+                                </div>
+                            </a>
+                            <a href="case-2.html" class="col-4">
+                                <div class="project-card">
+                                    <img src="src\img\enigma-img-2.png" alt="Проект">
+                                    <div class="project-overlay"></div>
+                                    <p>Разработка фирменного стиля для ювелирного магазина «Enigma» 2023</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="grid-row">
+                            <a href="case-3.html" class="col-6">
+                                <div class="project-card">
+                                    <img src="src/img/lumnium-3.jpg" alt="Проект">
+                                    <div class="project-overlay"></div>
+                                    <p>Разработка фирменного стиля и гайдлайна для компании «Lumnium» 2025</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="grid-row">
+                            <a href="case-4.html" class="col-3">
+                                <div class="project-card">
+                                    <img src="src/img/case-lumnium-logo.png" alt="Проект">
+                                    <div class="project-overlay"></div>
+                                    <p>Разработка логотипа для компании «Lumnium» 2025</p>
+                                </div>
+                            </a>
+                            <a href="case-5.html" class="col-3">
+                                <div class="project-card">
+                                    <img src="src/img/bar-cover.jpg" alt="Проект">
+                                    <div class="project-overlay"></div>
+                                    <p>Разработка логотипа для бар-кафе<br> «В бокале» 2024</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+    </main>
+
+
+    <footer class="footer-container">
+        <div class="footer-content ">
+            <a class="footer-color-text" href="">
+                <h4>any frouze</h4>
+            </a>
+            <div class="line-medium footer-color-solid"></div>
+            <div class="under-line-footer">
+
+                <div class="left-side footer-color-text">
+                    <div class="contact-card contact-card--footer">
+                        <h5>Email:</h5>
+                        <p class="decription-text footer-color-text">pochtapo@gmail.com</p>
+                    </div>
+                    <div class="contact-card contact-card--footer">
+                        <h5>Соцсети:</h5>
+                        <div class="social-icons">
+                            <a href=""><img src="src\icon\white-tg.svg" alt="Telegram-ICON"></a>
+                            <a href=""><img src="src\icon\white-tt.svg" alt="Tiktok-ICON"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <nav class="right-side">
+                    <ul>
+                        <li><a href="case-page.html" class="footer-color-text" >
+                                <p class="head-foot-p">проекты</p>
+                            </a></li>
+                        <li><a href="index.html#about-section"  class="footer-color-text">
+                                <p class="head-foot-p">обо мне</p>
+                            </a></li>
+                        <li><a href="index.html#contacts-section"  class="footer-color-text">
+                                <p class="head-foot-p">контакты</p>
+                            </a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div>
+                <p class="post-description footer-color-text ">&#169 2026, Designed by Any Frouze</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <button type="button" class="scroll-top" aria-label="Наверх">
+        <span>⯌</span>
+        <p>только<br>наверх</p>
+    </button>
+
+    <script>
+        const scrollTopBtn = document.querySelector('.scroll-top');
+
+        if (scrollTopBtn) {
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 300) {
+                    scrollTopBtn.classList.add('show');
+                } else {
+                    scrollTopBtn.classList.remove('show');
+                }
+            });
+
+            scrollTopBtn.addEventListener('click', function () {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+    </script>
+</body>
+
+</html>
