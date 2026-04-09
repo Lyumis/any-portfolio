@@ -31,6 +31,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.bg{
+    background-image: url(../src/img/background.png);
+}
+
 ul,li {
     margin: 0;
     padding: 0;
