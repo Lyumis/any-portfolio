@@ -573,16 +573,6 @@ width: 49%;
     height: 72px;
 }
 
-.icon {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    width: 72px;
-    height: 72px;
-}
-
 
 .icon-border {
     position: absolute;
@@ -630,6 +620,10 @@ width: 49%;
 }
 
 /* ===== СВ ===== */
+.icon--light{
+    width: 48px;
+    height: 48px;
+}
 .icon--light svg path {
     fill: #F9F9F8;
 }
